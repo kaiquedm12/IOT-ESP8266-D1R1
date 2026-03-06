@@ -1,5 +1,5 @@
 // Definindo os pinos
-const int pinoLDR = D1;          // Pino do sensor de luz
+const int pinoLDR = D6;          // Pino do sensor de luz
 const int pinoLedVermelho = D3;  // Pino do LED Vermelho
 
 void setup() {
@@ -17,13 +17,14 @@ void loop() {
   int leituraLDR = digitalRead(pinoLDR);
 
   if (leituraLDR == LOW) {
-    digitalWrite(pinoLedVermelho, LOW); // Acende o LED no escuro
-    Serial.println("Log: Está escuro! LED Vermelho LIGADO.");
+    digitalWrite(pinoLedVermelho, LOW); // DESLIGA o LED no escuro
+    Serial.println("Log: Está escuro! LED Vermelho DESLIGADO.");
   } else {
-    digitalWrite(pinoLedVermelho, HIGH);  // Apaga o LED na luz
-    Serial.println("Log: Tem luz! LED Vermelho DESLIGADO.");
+    digitalWrite(pinoLedVermelho, HIGH);  // ACENDE o LED na luz
+    Serial.println("Log: Tem luz! LED Vermelho LIGADO.");
   }
 
   // Um delay maior (meio segundo) para não inundar o Monitor Serial
   delay(500); 
 }
+
