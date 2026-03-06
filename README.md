@@ -1,8 +1,6 @@
-# IOT-ESP8266-D1R1
+# 🔌 IOT com ESP8266 D1R1 — Projetos Práticos
 
-![WhatsApp Image 2026-03-05 at 21 41 14](https://github.com/user-attachments/assets/ceaa4664-2b91-4b36-bbe7-cca75cfce9dc)
-
-https://github.com/user-attachments/assets/5e0a6379-61f3-4bb4-9759-8d562c487b9e
+Bem-vindo ao repositório de projetos de **Internet das Coisas (IoT)** utilizando o **ESP8266 D1R1**. Aqui você encontrará os projetos desenvolvidos com descrição detalhada, hardware utilizado e demonstração em vídeo.
 
 ---
 
@@ -11,6 +9,8 @@ https://github.com/user-attachments/assets/5e0a6379-61f3-4bb4-9759-8d562c487b9e
 ### O que o projeto faz
 
 Este projeto utiliza um **sensor LDR (Light Dependent Resistor)** para detectar a presença ou ausência de luz ambiente e controla um **LED vermelho** com base nessa leitura.
+
+![Foto do projeto LDR_Led](https://github.com/user-attachments/assets/ceaa4664-2b91-4b36-bbe7-cca75cfce9dc)
 
 ### Hardware utilizado
 
@@ -45,4 +45,8 @@ Log: Tem luz! LED Vermelho LIGADO.
 Log: Tem luz! LED Vermelho LIGADO.
 Log: Está escuro! LED Vermelho DESLIGADO.
 ```
+
+### 🎥 Demonstração em vídeo
+
+https://github.com/user-attachments/assets/5e0a6379-61f3-4bb4-9759-8d562c487b9e
 
