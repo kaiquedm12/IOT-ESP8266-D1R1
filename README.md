@@ -41,9 +41,9 @@ LDR lê HIGH (com luz) → LED Vermelho LIGADO
 
 ```
 Sistema do LDR iniciado!
-Log: Tem luz! LED Vermelho LIGADO.
-Log: Tem luz! LED Vermelho LIGADO.
-Log: Está escuro! LED Vermelho DESLIGADO.
+Log: Está escuro! LED Vermelho LIGADO.
+Log: Está escuro! LED Vermelho LIGADO.
+Log: Tem luz! LED Vermelho DESLIGADO.
 ```
 
 ### 🎥 Demonstração em vídeo
