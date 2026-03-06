@@ -18,13 +18,14 @@ void loop() {
 
   if (leituraLDR == LOW) {
     digitalWrite(pinoLedVermelho, LOW); // DESLIGA o LED no escuro
-    Serial.println("Log: Está escuro! LED Vermelho DESLIGADO.");
+    Serial.println("Log: Tem luz! LED Vermelho DESLIGADO.");
   } else {
     digitalWrite(pinoLedVermelho, HIGH);  // ACENDE o LED na luz
-    Serial.println("Log: Tem luz! LED Vermelho LIGADO.");
+    Serial.println("Log: Está escuro! LED Vermelho LIGADO.");
   }
 
   // Um delay maior (meio segundo) para não inundar o Monitor Serial
   delay(500); 
 }
+
 
